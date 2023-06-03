@@ -1,0 +1,23 @@
+{
+    "name": "jonjon/slim-swoole",
+    "authors": [
+        {
+            "name": "Jonathan Braga",
+            "email": "jonathan201392127@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-swoole": "*",
+        "slim/slim": "^4.9",
+        "leocavalcante/request-callback": "*"
+    },
+    "require-dev": {
+    "swoole/ide-helper": "^4.8"
+},
+    "autoload": {
+        "psr-4": {
+            "Slim\\Swoole\\": "src/"
+        }
+    }
+}
