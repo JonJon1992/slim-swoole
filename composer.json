@@ -22,8 +22,7 @@
     },
     "suggest": {
         "ext-inotify": "Needed to enable hot code reloading",
-        "ext-swoole": "You need either ext-swoole or ext-openswoole",
-        "ext-openswoole": "You need either ext-swoole or ext-openswoole"
+        "ext-swoole": "You need either ext-swoole or ext-openswoole"
     },
     "scripts": {
         "check": "phpstan"
